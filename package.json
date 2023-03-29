@@ -1,0 +1,17 @@
+{
+  "name": "rollup-study",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.20.2"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "build-demo01": "rollup demo01/main.js -c demo01/rollup.config.js",
+    "build-demo02": "rollup demo02/main.js -c demo02/rollup.config.js",
+    "build-demo03": "rollup demo03/main.js -c demo03/rollup.config.js"
+  }
+}
