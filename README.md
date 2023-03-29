@@ -1,8 +1,6 @@
 ## 安装 rollup
 
-有两种方式安装 rollup
-
-1. 全局安装
+全局安装
 
 ```bash
 # yarn
@@ -15,7 +13,7 @@ npm install -g rollup
 pnpm install -g rollup
 ```
 
-2. 本地安装
+本地安装
 
 ```bash
 # yarn
@@ -28,7 +26,6 @@ npm install rollup --save-dev
 pnpm install rollup --save-dev
 
 ```
-
 
 
 ## 目录说明
